@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\ParallaxGuitar0.png" />
+    <None Remove="Images\ParallaxGuitar1.png" />
+    <None Remove="Images\ParallaxGuitar10.png" />
+    <None Remove="Images\ParallaxGuitar11.png" />
+    <None Remove="Images\ParallaxGuitar12.png" />
+    <None Remove="Images\ParallaxGuitar2.png" />
+    <None Remove="Images\ParallaxGuitar3.png" />
+    <None Remove="Images\ParallaxGuitar4.png" />
+    <None Remove="Images\ParallaxGuitar5.png" />
+    <None Remove="Images\ParallaxGuitar6.png" />
+    <None Remove="Images\ParallaxGuitar7.png" />
+    <None Remove="Images\ParallaxGuitar8.png" />
+    <None Remove="Images\ParallaxGuitar9.png" />
+    <None Remove="Images\ParallaxWallpaper.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ParallaxGuitar0.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar1.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar10.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar11.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar12.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar2.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar3.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar4.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar5.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar6.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar7.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar8.png" />
+    <EmbeddedResource Include="Images\ParallaxGuitar9.png" />
+    <EmbeddedResource Include="Images\ParallaxWallpaper.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="*" />
+    <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="*" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+  </ItemGroup>
+</Project>

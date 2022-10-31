@@ -42,7 +42,7 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="*" />
     <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="*" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 </Project>
